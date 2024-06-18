@@ -49,12 +49,12 @@ const Profile = () => {
                 className="hidden"
                 id="image-upload"
               />
-              <label
+              {/* <label
                 htmlFor="image-upload"
                 className="w-34 h-10 glass-button bg-transparent cursor-pointer flex justify-center items-center  rounded-full "
               >
                 <span className="text-white opacity-65">Choose File</span>
-              </label>
+              </label> */}
             </div>
           </div>
           <hr className="opacity-70" />
