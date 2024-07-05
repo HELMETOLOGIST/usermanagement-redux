@@ -2,12 +2,10 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from 'react-router-dom';
 
-
 const Home = () => {
   const isAuthenticated = useSelector((state) => state.user?.isAuthenticated);
   const userName = useSelector((state) => state.user.user?.username);
   const navigate = useNavigate()
-
 
   useEffect(() => {
     if(isAuthenticated){
